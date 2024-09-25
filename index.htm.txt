@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+</head>
+<body>
+    <h1>Payment Form</h1>
+    <form id="paymentForm">
+        <input type="text" id="name" placeholder="Name" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="text" id="amount" placeholder="Amount" required />
+        <button type="button" id="payButton">Pay with PhonePe</button>
+    </form>
+
+    <script>
+        document.getElementById('payButton').onclick = function() {
+            // Initiate payment via PhonePe API (you will replace this with actual API call)
+            alert('Payment initiated!'); 
+            // Redirect to PhonePe payment interface with necessary details
+        };
+    </script>
+</body>
+</html>
